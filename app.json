@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "test-app",
-    "slug": "test-app",
+    "slug": "react-native-chat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "284e83a7-21c7-4069-94f3-9605f626cf11"
+      }
+    },
+    "owner": "artemn"
   }
 }
