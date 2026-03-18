@@ -1,0 +1,24 @@
+services:
+  expo:
+    build:
+      context: .
+      dockerfile: container/dev.dockerfile
+    volumes:
+      - .:/workspace
+      - gradle-cache:/root/.gradle
+      - npm-cache:/root/.npm
+      - android-cache:/opt/android-sdk
+    stdin_open: true
+    tty: true
+    network_mode: host
+    # secrets:
+    #   - firebase
+
+volumes:
+  gradle-cache:
+  npm-cache:
+  android-cache:
+
+# secrets:
+#   firebase:
+#     file: ./secrets/firebase.json

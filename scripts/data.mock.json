@@ -1,0 +1,369 @@
+[
+  {
+    "id": "msg-001",
+    "user": "Alice",
+    "sent_date": "2026-03-17T08:00:00Z",
+    "delivery_status": "read",
+    "text": "Good morning everyone!",
+    "reply": null,
+    "reactions": { "👍": ["Bob", "Clara"], "☀️": ["David"] }
+  },
+  {
+    "id": "msg-002",
+    "user": "Bob",
+    "sent_date": "2026-03-17T08:01:10Z",
+    "delivery_status": "read",
+    "text": "Morning Alice!",
+    "reply": "msg-001",
+    "reactions": { "👋": ["Alice"] }
+  },
+  {
+    "id": "msg-003",
+    "user": "Clara",
+    "sent_date": "2026-03-17T08:02:05Z",
+    "delivery_status": "read",
+    "text": "Anyone up for coffee later?",
+    "reply": null,
+    "reactions": { "☕": ["Alice", "Bob", "David"] }
+  },
+  {
+    "id": "msg-004",
+    "user": "David",
+    "sent_date": "2026-03-17T08:03:20Z",
+    "delivery_status": "delivered",
+    "text": "Definitely. I need caffeine.",
+    "reply": "msg-003",
+    "reactions": { "😂": ["Clara"] }
+  },
+  {
+    "id": "msg-005",
+    "user": "Eve",
+    "sent_date": "2026-03-17T08:05:00Z",
+    "delivery_status": "read",
+    "text": "Morning team!",
+    "reply": null,
+    "reactions": { "👋": ["Alice", "Bob"] }
+  },
+  {
+    "id": "msg-006",
+    "user": "Frank",
+    "sent_date": "2026-03-17T08:06:30Z",
+    "delivery_status": "read",
+    "text": "Did anyone review the PR I sent yesterday?",
+    "reply": null,
+    "reactions": { "👀": ["Alice", "Clara"] }
+  },
+  {
+    "id": "msg-007",
+    "user": "Alice",
+    "sent_date": "2026-03-17T08:07:10Z",
+    "delivery_status": "read",
+    "text": "I'll check it after standup.",
+    "reply": "msg-006",
+    "reactions": { "👍": ["Frank"] }
+  },
+  {
+    "id": "msg-008",
+    "user": "George",
+    "sent_date": "2026-03-17T08:08:12Z",
+    "delivery_status": "delivered",
+    "text": "Standup in 10 minutes.",
+    "reply": null,
+    "reactions": { "⏰": ["Bob", "Clara"] }
+  },
+  {
+    "id": "msg-009",
+    "user": "Hanna",
+    "sent_date": "2026-03-17T08:09:40Z",
+    "delivery_status": "read",
+    "text": "Thanks for the reminder!",
+    "reply": "msg-008",
+    "reactions": { "🙏": ["George"] }
+  },
+  {
+    "id": "msg-010",
+    "user": "Ivan",
+    "sent_date": "2026-03-17T08:10:55Z",
+    "delivery_status": "read",
+    "text": "Joining from the train today.",
+    "reply": null,
+    "reactions": { "🚆": ["Alice", "Bob"] }
+  },
+  {
+    "id": "msg-011",
+    "user": "Julia",
+    "sent_date": "2026-03-17T08:11:30Z",
+    "delivery_status": "read",
+    "text": "Hope the connection is stable!",
+    "reply": "msg-010",
+    "reactions": { "😅": ["Ivan"] }
+  },
+  {
+    "id": "msg-012",
+    "user": "Kevin",
+    "sent_date": "2026-03-17T08:12:00Z",
+    "delivery_status": "delivered",
+    "text": "Working on the API bug.",
+    "reply": null,
+    "reactions": { "🛠️": ["Frank"] }
+  },
+  {
+    "id": "msg-013",
+    "user": "Laura",
+    "sent_date": "2026-03-17T08:13:44Z",
+    "delivery_status": "read",
+    "text": "Which one exactly?",
+    "reply": "msg-012",
+    "reactions": { "❓": ["Kevin"] }
+  },
+  {
+    "id": "msg-014",
+    "user": "Kevin",
+    "sent_date": "2026-03-17T08:14:20Z",
+    "delivery_status": "read",
+    "text": "The login timeout issue.",
+    "reply": "msg-013",
+    "reactions": { "👍": ["Laura", "Alice"] }
+  },
+  {
+    "id": "msg-015",
+    "user": "Mike",
+    "sent_date": "2026-03-17T08:15:55Z",
+    "delivery_status": "read",
+    "text": "That bug has been annoying.",
+    "reply": null,
+    "reactions": { "😬": ["Clara", "David"] }
+  },
+
+  {
+    "id": "msg-016",
+    "user": "Nina",
+    "sent_date": "2026-03-17T08:17:05Z",
+    "delivery_status": "read",
+    "text": "Design draft updated.",
+    "reply": null,
+    "reactions": { "🎨": ["Laura", "Julia"] }
+  },
+  {
+    "id": "msg-017",
+    "user": "Oscar",
+    "sent_date": "2026-03-17T08:18:11Z",
+    "delivery_status": "delivered",
+    "text": "Looks great!",
+    "reply": "msg-016",
+    "reactions": { "🔥": ["Nina"] }
+  },
+  {
+    "id": "msg-018",
+    "user": "Paul",
+    "sent_date": "2026-03-17T08:19:00Z",
+    "delivery_status": "read",
+    "text": "We should deploy today.",
+    "reply": null,
+    "reactions": { "🚀": ["Alice", "Kevin"] }
+  },
+  {
+    "id": "msg-019",
+    "user": "Quinn",
+    "sent_date": "2026-03-17T08:20:35Z",
+    "delivery_status": "read",
+    "text": "After tests pass please.",
+    "reply": "msg-018",
+    "reactions": { "✅": ["Paul"] }
+  },
+  {
+    "id": "msg-020",
+    "user": "Rita",
+    "sent_date": "2026-03-17T08:21:45Z",
+    "delivery_status": "read",
+    "text": "QA is running them now.",
+    "reply": null,
+    "reactions": { "🧪": ["Quinn", "Paul"] }
+  },
+
+  {
+    "id": "msg-021",
+    "user": "Sam",
+    "sent_date": "2026-03-17T08:23:10Z",
+    "delivery_status": "delivered",
+    "text": "Any updates on the client meeting?",
+    "reply": null,
+    "reactions": { "👀": ["Alice"] }
+  },
+  {
+    "id": "msg-022",
+    "user": "Tina",
+    "sent_date": "2026-03-17T08:24:55Z",
+    "delivery_status": "read",
+    "text": "Scheduled for 2 PM.",
+    "reply": "msg-021",
+    "reactions": { "📅": ["Sam"] }
+  },
+  {
+    "id": "msg-023",
+    "user": "Uma",
+    "sent_date": "2026-03-17T08:25:30Z",
+    "delivery_status": "read",
+    "text": "I'll prepare the slides.",
+    "reply": null,
+    "reactions": { "📊": ["Tina", "Sam"] }
+  },
+  {
+    "id": "msg-024",
+    "user": "Victor",
+    "sent_date": "2026-03-17T08:26:18Z",
+    "delivery_status": "read",
+    "text": "Need any help?",
+    "reply": "msg-023",
+    "reactions": { "🙌": ["Uma"] }
+  },
+  {
+    "id": "msg-025",
+    "user": "Wendy",
+    "sent_date": "2026-03-17T08:27:44Z",
+    "delivery_status": "read",
+    "text": "Docs are updated.",
+    "reply": null,
+    "reactions": { "📄": ["Frank", "Alice"] }
+  },
+
+  {
+    "id": "msg-026",
+    "user": "Alice",
+    "sent_date": "2026-03-17T08:29:00Z",
+    "delivery_status": "read",
+    "text": "Great work!",
+    "reply": "msg-025",
+    "reactions": { "🎉": ["Wendy"] }
+  },
+
+  {
+    "id": "msg-027",
+    "user": "Bob",
+    "sent_date": "2026-03-17T08:30:11Z",
+    "delivery_status": "delivered",
+    "text": "Lunch ideas?",
+    "reply": null,
+    "reactions": { "🍔": ["Clara", "David"] }
+  },
+  {
+    "id": "msg-028",
+    "user": "Clara",
+    "sent_date": "2026-03-17T08:31:20Z",
+    "delivery_status": "read",
+    "text": "Pizza sounds good.",
+    "reply": "msg-027",
+    "reactions": { "🍕": ["Bob"] }
+  },
+  {
+    "id": "msg-029",
+    "user": "David",
+    "sent_date": "2026-03-17T08:32:45Z",
+    "delivery_status": "read",
+    "text": "Always pizza.",
+    "reply": "msg-027",
+    "reactions": { "😂": ["Clara", "Bob"] }
+  },
+  {
+    "id": "msg-030",
+    "user": "Eve",
+    "sent_date": "2026-03-17T08:33:30Z",
+    "delivery_status": "read",
+    "text": "Count me in.",
+    "reply": "msg-027",
+    "reactions": { "👍": ["Bob"] }
+  },
+
+  {
+    "id": "msg-031",
+    "user": "Frank",
+    "sent_date": "2026-03-17T08:35:00Z",
+    "delivery_status": "read",
+    "text": "Server CPU usage is high.",
+    "reply": null,
+    "reactions": { "⚠️": ["Kevin", "Alice"] }
+  },
+  {
+    "id": "msg-032",
+    "user": "Kevin",
+    "sent_date": "2026-03-17T08:36:10Z",
+    "delivery_status": "read",
+    "text": "Investigating now.",
+    "reply": "msg-031",
+    "reactions": { "🔍": ["Frank"] }
+  },
+
+  {
+    "id": "msg-033",
+    "user": "Laura",
+    "sent_date": "2026-03-17T08:37:22Z",
+    "delivery_status": "delivered",
+    "text": "Could be the new job runner.",
+    "reply": "msg-031",
+    "reactions": { "💡": ["Kevin"] }
+  },
+  {
+    "id": "msg-034",
+    "user": "Mike",
+    "sent_date": "2026-03-17T08:38:10Z",
+    "delivery_status": "read",
+    "text": "Let me know if you need logs.",
+    "reply": "msg-031",
+    "reactions": { "📂": ["Kevin"] }
+  },
+  {
+    "id": "msg-035",
+    "user": "Nina",
+    "sent_date": "2026-03-17T08:39:45Z",
+    "delivery_status": "read",
+    "text": "Uploading assets.",
+    "reply": null,
+    "reactions": { "⬆️": ["Oscar"] }
+  },
+
+  {
+    "id": "msg-036",
+    "user": "Oscar",
+    "sent_date": "2026-03-17T08:40:10Z",
+    "delivery_status": "read",
+    "text": "Received them.",
+    "reply": "msg-035",
+    "reactions": { "👍": ["Nina"] }
+  },
+  {
+    "id": "msg-037",
+    "user": "Paul",
+    "sent_date": "2026-03-17T08:41:00Z",
+    "delivery_status": "delivered",
+    "text": "Build pipeline finished.",
+    "reply": null,
+    "reactions": { "✅": ["Quinn", "Rita"] }
+  },
+  {
+    "id": "msg-038",
+    "user": "Quinn",
+    "sent_date": "2026-03-17T08:41:55Z",
+    "delivery_status": "read",
+    "text": "Starting regression tests.",
+    "reply": "msg-037",
+    "reactions": { "🧪": ["Paul"] }
+  },
+  {
+    "id": "msg-039",
+    "user": "Rita",
+    "sent_date": "2026-03-17T08:42:40Z",
+    "delivery_status": "read",
+    "text": "Nice.",
+    "reply": "msg-037",
+    "reactions": { "👍": ["Paul"] }
+  },
+  {
+    "id": "msg-040",
+    "user": "Sam",
+    "sent_date": "2026-03-17T08:44:10Z",
+    "delivery_status": "read",
+    "text": "Client sent feedback.",
+    "reply": null,
+    "reactions": { "📩": ["Tina"] }
+  }
+]

@@ -1,0 +1,35 @@
+const COLORS = {
+	UI: {
+		Black: '#000000',
+		White: '#FFFFFF',
+		Blue50: '#E3F2FD',
+		Blue100: '#BBDEFB',
+		Blue700: '#1976D2',
+		BlueGray50: '#ECEFF1',
+		BlueGray100: '#CFD8DC',
+		BlueGray200: '#B0BEC5',
+		LightBlue200: '#B3E5FC',
+		Red800: '#C62828',
+		GreenA700: '#00C853',
+	},
+	Illustrations: {
+		RedA400: '#FF1744',
+		PinkA400: '#F50057',
+		PurpleA400: '#D500F9',
+		DeepPurpleA400: '#651FFF',
+		IndigoA400: '#3D5AFE',
+		BlueA400: '#2979FF',
+		LightBlueA400: '#00B0FF',
+		CyanA400: '#00E5FF',
+		TealA400: '#1DE9B6',
+		GreenA400: '#00E676',
+		LightGreenA400: '#76FF03',
+		LimeA400: '#C6FF00',
+		YellowA400: '#FFFF00',
+		AmberA400: '#FFC400',
+		OrangeA400: '#FF9100',
+		DeepOrangeA400: '#FF3D00',
+	},
+};
+
+export default COLORS;
