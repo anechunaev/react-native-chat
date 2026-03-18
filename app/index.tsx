@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import { KeyboardAvoidingView, StyleSheet, Text, TextInput } from "react-native";
 import Button from "../components/Button";
 import { useServices } from "../services/context";
@@ -10,7 +10,7 @@ export default function Index() {
 	const [error, setError] = useState("");
 	const [loading, setLoading] = useState(false);
 
-	const handleLogin = useCallback(async () => {
+	const handleLogin = async () => {
 		setError("");
 		setLoading(true);
 		try {
@@ -21,7 +21,7 @@ export default function Index() {
 		} finally {
 			setLoading(false);
 		}
-	}, [auth, setIsLoggedInGuard, setError, setLoading]);
+	};
 
 	return (
 		<KeyboardAvoidingView
